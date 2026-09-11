@@ -1,0 +1,142 @@
+Project Overview
+
+This project analyzes a banking credit-risk dataset containing 12,000 customer loan records and 22 features to explore loan characteristics, customer financial profiles, and patterns associated with loan risk.
+
+The project combines Python-based exploratory data analysis with an interactive Power BI dashboard to transform the raw loan data into meaningful financial and risk insights.
+
+Built Using
+Power BI — Interactive dashboard and business intelligence reporting
+Python — Data exploration, statistical analysis, and visualization
+Pandas — Data manipulation and analysis
+Matplotlib & Seaborn — Data visualization
+Dataset Overview
+
+The dataset contains information about customers, their financial characteristics, loan applications, and loan outcomes.
+
+Key variables include:
+
+Customer demographics
+Annual income
+Credit score
+Existing loans
+Dependents
+Account balance
+Loan amount
+Loan purpose
+Loan term
+Interest rate
+Debt-to-income ratio
+Region
+Loan status
+Default risk flag
+Application and approval dates
+
+The dataset contains 12,000 records with no missing values or duplicate rows.
+
+Exploratory Data Analysis
+
+Python was used to understand the structure and characteristics of the dataset before developing the Power BI dashboard.
+
+Data Quality Analysis
+Checked dataset dimensions and data types
+Identified missing values
+Checked for duplicate records
+Examined categorical variable distributions
+Reviewed numerical variables using descriptive statistics
+Identified unique identifier columns
+Examined date fields for further analysis
+Financial & Risk Analysis
+
+The following relationships were explored:
+
+Credit Score vs Loan Status
+Debt-to-Income Ratio vs Loan Status
+Annual Income vs Loan Amount
+Financial variable correlations
+Relationships among key financial variables using pair plots
+Key EDA Findings
+The dataset contains 12,000 loan records with no missing values or duplicate rows.
+Loan_Status is highly imbalanced, with Default representing the overwhelming majority of records.
+Credit scores for the Approved group are generally higher than those observed in the Default group, although the Approved group contains only a small number of observations.
+Annual Income and Debt-to-Income Ratio show a moderately strong negative correlation (~ -0.61).
+Loan Amount and Debt-to-Income Ratio show a moderate positive correlation (~ 0.48).
+Annual Income and Loan Amount show almost no linear correlation (~ 0.02).
+Credit Score and Interest Rate show very weak linear relationships with the other financial variables examined.
+The Debt-to-Income Ratio contains unusually large values and therefore requires careful interpretation in the dashboard.
+Dashboard Structure
+
+The Power BI dashboard is being designed around practical credit-risk and portfolio questions rather than simply reproducing every Python visualization.
+
+Page 1: Credit Risk Overview
+
+The overview page will provide a high-level view of the loan portfolio, including metrics such as:
+
+Total Loan Records
+Total Loan Amount
+Loan Status Distribution
+Average Credit Score
+Average Loan Amount
+Average Interest Rate
+Default/Risk Metrics
+Page 2: Loan & Customer Analysis
+
+This page will explore the characteristics of the customers and loans in the dataset.
+
+Planned analysis includes:
+
+Loan Amount by Loan Purpose
+Loan Distribution by Region
+Income Analysis
+Credit Score Distribution
+Employment Type
+Education Level
+Customer Demographics
+Loan Term Analysis
+Page 3: Credit Risk Analysis
+
+This page focuses specifically on factors associated with loan risk.
+
+Planned analysis includes:
+
+Credit Score and Loan Status
+Debt-to-Income Ratio Analysis
+Risk by Loan Purpose
+Risk by Region
+Risk by Income Range
+Risk by Credit Score Range
+Risk-related financial indicators
+Interactive Features
+
+The dashboard will include interactive filters/slicers allowing users to explore the portfolio by dimensions such as:
+
+Region
+Loan Purpose
+Employment Type
+Education Level
+Gender
+Loan Status
+Tools & Technologies
+
+Power BI | Python | Pandas | Matplotlib | Seaborn | DAX
+
+DAX will be used for calculated measures and KPI development within Power BI.
+
+Skills Demonstrated
+Data Cleaning & Validation
+Exploratory Data Analysis
+Financial Data Analysis
+Credit Risk Analysis
+Data Visualization
+Power BI Dashboard Development
+KPI Development
+DAX
+Correlation Analysis
+Business Insight Generation
+Interactive Reporting
+Project Objective
+
+The objective of this project is to demonstrate how raw financial and loan data can be transformed into an interactive credit-risk analytics solution.
+
+The analysis focuses on understanding:
+
+Who is taking loans, what types of loans are being taken, how the portfolio is distributed, and what financial characteristics are associated with different loan outcomes.
